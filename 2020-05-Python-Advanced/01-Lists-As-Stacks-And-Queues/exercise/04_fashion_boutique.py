@@ -15,7 +15,6 @@ if __name__ == '__main__':
     )
 
 
-# # mirokrastev version
 # def count_racks(popped):
 #     stack[-1].append(popped)
 #     if sum(stack[-1]) > capacity:
