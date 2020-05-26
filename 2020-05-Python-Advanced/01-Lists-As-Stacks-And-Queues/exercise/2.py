@@ -1,11 +1,15 @@
-stack = '5 4 8 6 3 8 7 7 9'.split()
+stack = list(map(int, '5 4 8 6 3 8 7 7 9'.split()))
+racks = []
 capacity = 16
-sum_nums = 0
+sum_clothes = 0
 
-dict = {}
-current_rack = 1
-while True:
-    if sum_nums < capacity:
-        dict[current_rack] +=
-    else:
-        # stop
+while sum_clothes < capacity:
+    sum_clothes += stack.pop()
+
+    if sum_clothes == capacity:
+        racks.append(sum_clothes)
+
+    elif sum_clothes > capacity:
+        sum_clothes -= capacity
+        racks.append(capacity)
+        
