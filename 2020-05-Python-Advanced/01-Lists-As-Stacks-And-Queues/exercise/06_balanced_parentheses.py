@@ -1,6 +1,5 @@
-# This is the solution from in class:
 parentheses = input()
-stack = []
+s = []
 
 pairs = {
     '{': '}',
@@ -12,12 +11,12 @@ valid = True
 
 for el in parentheses:
     if el in "{([":
-        stack.append(el)
+        s.append(el)
     elif el in "})]":
-        if stack:
-            current = stack[-1]
+        if s:
+            current = s[-1]
             if pairs[current] == el:
-                stack.pop()
+                s.pop()
             else:
                 valid = False
                 break
