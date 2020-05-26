@@ -1,4 +1,3 @@
-
 from collections import deque as d
 
 
@@ -13,10 +12,10 @@ def find_station(arg):
     return tmp
 
 
-num = int(input())
-stations = [[int(i) for i in input().split()] for i in range(num)]
-
-for x in range(len(stations)):
-    if find_station(arg=x) >= 0:
-        print(x)
-        exit()
+if __name__ == '__main__':
+    num = int(input())
+    stations = [[int(i) for i in input().split()] for i in range(num)]
+    for x in range(len(stations)):
+        if find_station(arg=x) >= 0:
+            print(x)
+            exit()
