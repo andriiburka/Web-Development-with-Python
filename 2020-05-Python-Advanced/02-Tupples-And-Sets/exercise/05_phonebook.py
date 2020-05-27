@@ -1,16 +1,15 @@
 di = {}
 
-while True:
+usr_inp = input()
+while not usr_inp.isdigit():
+    name, phone = [x for x in usr_inp.split('-')]
+    di[name] = phone
     usr_inp = input()
-    if usr_inp.isdigit():
-        usr_inp = int(usr_inp)
-        for i in range(usr_inp):
-            print(i)
+
+usr_inp = int(usr_inp)
+for i in range(usr_inp):
+    current_name = input()
+    if current_name in di:
+        print(f"{current_name} -> {di[current_name]}")
     else:
-        usr_inp = usr_inp.split('-')
-        key = usr_inp[0]
-        value = usr_inp[1]
-        di[key] = value
-
-
-print(di)
+        print(f"Contact {current_name} does not exist.")
