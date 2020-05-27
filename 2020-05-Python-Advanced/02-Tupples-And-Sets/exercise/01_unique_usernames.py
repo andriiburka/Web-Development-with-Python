@@ -1,2 +1,1 @@
-s = {input() for i in range(int(input()))}
-[print(x) for x in s]
+[print(x) for x in {input() for i in range(int(input()))}]
