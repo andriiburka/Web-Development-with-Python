@@ -1,9 +1,10 @@
-def solve(usr_inp):
+def contacts(usr_inp):
     contacts_di = {}
     while not usr_inp.isdigit():
         name, phone = usr_inp.split('-')
         contacts_di[name] = phone
         usr_inp = input()
+
     usr_inp = int(usr_inp)
     for _ in range(usr_inp):
         current_name = input()
@@ -14,4 +15,4 @@ def solve(usr_inp):
 
 
 if __name__ == '__main__':
-    solve(usr_inp=input())
+    contacts(usr_inp=input())
