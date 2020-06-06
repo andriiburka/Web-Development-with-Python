@@ -1,22 +1,18 @@
-names = input().split(', ')
-matrix = {}
+categories = input().split(', ')
+bunker = {category: {} for category in categories}
+n = int(input())
 
-user_input = input().split()
+for _ in range(n):
+    tokens = input().split(' - ')
+    category, item, item_info = tokens[0], tokens[1], tokens[2].split(';')
+    quantity, quality = int(item_info[0].split(':')[1]), int(item_info[1].split(':')[1])
+    if category in bunker:
+        bunker[category][item] = {'quantity': quantity, 'quality': quality}
 
-while user_input:
+count_items = sum([bunker[x][y]['quantity'] for x in bunker for y in bunker[x]])
+sums_quality = sum([bunker[x][y]['quality'] for x in bunker for y in bunker[x]])
+average_quality = sums_quality / len(categories)
 
-    if "End" in user_input:
-        break
-
-    cmd = user_input
-    name, item, cost = cmd[0], cmd[1], int(cmd[2])
-
-    if name not in matrix:
-        matrix.update({name: [{item}, cost]})
-    elif item not in matrix[name][0]:
-        matrix[name][0].add(item)
-        matrix[name][1] += cost
-
-    user_input = input()
-
-[print(f"{name} -> Items: {len(values[0])}, Cost: {values[1]}") for name, values in matrix.items()]
+print(f'Count of items: {count_items}')
+print(f'Average quality: {average_quality:.2f}')
+[print(f'{category} -> {", ".join(bunker[category].keys())}') for category in bunker]
