@@ -6,12 +6,9 @@ def multiply_numbers(num1, num2):
     return num1 * num2
 
 
-def func_executor(**kwargs):
-    print(kwargs)
+# LAST PIECE OF PUZZLE
+def func_executor(*args):
+    return [foo(*nums) for foo, nums in args]
 
 
-print(
-    func_executor(
-        (sum_numbers, (1, 2)), (multiply_numbers, (2, 4))
-    )
-)
+print(func_executor((sum_numbers, (1, 2)), (multiply_numbers, (2, 4))))
