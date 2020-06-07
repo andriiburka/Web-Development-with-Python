@@ -8,10 +8,9 @@ def sum_positive_nums(nums_li_int):
 
 def hack_nasa_with_css(user_input):
     sum_negatives, sum_positives = sum_negative_nums(user_input), sum_positive_nums(user_input)
-    abs_sum_negatives, abs_sum_positives = abs(sum_negatives), abs(sum_positives)
-    negatives, positives = 'negatives', 'positives'
 
-    if abs_sum_negatives < abs_sum_positives:
+    negatives, positives = 'negatives', 'positives'
+    if abs(sum_negatives) < abs(sum_positives):
         positives, negatives = negatives, positives
     message = 'The {} are stronger than the {}'.format(negatives, positives)
     print('{}\n{}\n{}'.format(sum_negatives, sum_positives, message))
