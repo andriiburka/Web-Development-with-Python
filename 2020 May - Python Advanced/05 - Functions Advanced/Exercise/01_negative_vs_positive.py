@@ -1,9 +1,9 @@
-def sum_negative_nums(nums_li_int):
-    return sum([num for num in nums_li_int if num < 0])
+def sum_negative_nums(li):
+    return sum([num for num in li if num < 0])
 
 
-def sum_positive_nums(nums_li_int):
-    return sum([num for num in nums_li_int if num >= 0])
+def sum_positive_nums(li):
+    return sum([num for num in li if num >= 0])
 
 
 def hack_nasa_with_css(user_input):

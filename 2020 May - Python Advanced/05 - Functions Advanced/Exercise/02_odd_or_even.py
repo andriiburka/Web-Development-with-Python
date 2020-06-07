@@ -9,7 +9,4 @@ def evens(li_input):
 if __name__ == '__main__':
     cmd = input()
     li = [int(num) for num in input().split()]
-
-    print(
-        odds(li_input=li) if cmd.startswith('Odd') else evens(li_input=li)
-    )
+    print(odds(li_input=li) if cmd.startswith('Odd') else evens(li_input=li))
