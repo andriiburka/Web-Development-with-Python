@@ -6,13 +6,17 @@ def sum_positive_nums(nums_li_int):
     return sum([num for num in nums_li_int if num >= 0])
 
 
-def hack_nasa_with_css(x):
-    negatives, positives = sum_negative_nums(x), sum_positive_nums(x)
-    m = 'The {} are stronger than the {}'
-    msg = m.format('negatives', 'positives' if abs(negatives) > abs(positives) else 'positives', 'negatives')
-    print('{}\n{}\n{}'.format(negatives, positives, msg))
+def hack_nasa_with_css(user_input):
+    sum_negatives, sum_positives = sum_negative_nums(user_input), sum_positive_nums(user_input)
+    abs_sum_negatives, abs_sum_positives = abs(sum_negatives), abs(sum_positives)
+    negatives, positives = 'negatives', 'positives'
+
+    if abs_sum_negatives < abs_sum_positives:
+        positives, negatives = negatives, positives
+    message = 'The {} are stronger than the {}'.format(negatives, positives)
+    print('{}\n{}\n{}'.format(sum_negatives, sum_positives, message))
 
 
 if __name__ == '__main__':
-    user_input = [int(num) for num in input().split()]
-    hack_nasa_with_css(x=user_input)
+    list_input = [int(num) for num in input().split()]
+    hack_nasa_with_css(user_input=list_input)
