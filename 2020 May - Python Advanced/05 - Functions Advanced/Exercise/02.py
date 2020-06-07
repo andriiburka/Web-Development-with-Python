@@ -1,13 +1,15 @@
-
-# NOT FINISHED YET
-li = [int(i) for i in input().split()]
-
-di = {}
-negatives = {'negatives': i for i in li if i < 0}
-positives = {'positives': i for i in li if i >= 0}
-di.update(negatives)
-di.update(positives)
+def odds(li_input):
+    return sum([i for i in li_input if i % 2 == 1]) * len(li_input)
 
 
-print(di)
-print(negatives)
+def evens(li_input):
+    return sum([i for i in li_input if i % 2 == 0]) * len(li_input)
+
+
+if __name__ == '__main__':
+    cmd = input()
+    li = [int(num) for num in input().split()]
+
+    print(
+        odds(li_input=li) if cmd.startswith('Odd') else evens(li_input=li)
+    )
