@@ -6,3 +6,7 @@ def args_length(*args):
 print(args_length(1, 32, 5))            # 3
 print(args_length("john", "peter"))     # 2
 print(args_length([1, 2, 3]))           # 1
+
+
+
+# wow
