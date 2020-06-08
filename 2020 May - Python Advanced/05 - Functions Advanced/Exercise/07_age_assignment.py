@@ -1,5 +1,5 @@
 def age_assignment(*names, **ages):
-    return {name: value for name in names for key, value in ages.items() if name[0] == key}
+    return {name: age for name in names for letter, age in ages.items() if name[0] == letter}
 
 
 # INPUTS
