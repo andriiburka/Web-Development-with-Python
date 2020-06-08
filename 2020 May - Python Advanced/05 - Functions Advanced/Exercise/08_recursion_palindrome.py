@@ -5,5 +5,3 @@ def palindrome(word, index):
         return palindrome(word, index + 1)
     else:
         return f'{word} is not a palindrome'
-
-    adf
