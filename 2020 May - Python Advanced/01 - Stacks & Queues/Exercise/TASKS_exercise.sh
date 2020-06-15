@@ -1,0 +1,1 @@
+open https://softuni.bg/trainings/resources/officedocument/49828/lists-as-stacks-and-queues-exercise-python-advanced-may-2020/2839

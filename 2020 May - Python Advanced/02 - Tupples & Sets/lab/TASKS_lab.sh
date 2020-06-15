@@ -1,0 +1,1 @@
+open https://softuni.bg/trainings/resources/officedocument/49905/tuples-and-sets-lab-python-advanced-may-2020/2839

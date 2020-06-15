@@ -1,0 +1,1 @@
+open https://softuni.bg/trainings/resources/officedocument/50317/functions-advanced-exercise-python-advanced-may-2020/2839

@@ -1,0 +1,1 @@
+open https://softuni.bg/trainings/resources/officedocument/50063/multidimensional-lists-lab-python-advanced-may-2020/2839
