@@ -1,3 +1,6 @@
+# Самостоятелно решение
+# 80/100
+
 from collections import deque
 
 li = deque(input().split())
@@ -26,7 +29,6 @@ while li:
     else:
         if len(li) == 1:
             li.pop()
-
         else:
             middle_index = len(li) // 2 - 1
             pop_left, pop_right = li.popleft()[:-1], li.pop()[:-1]
