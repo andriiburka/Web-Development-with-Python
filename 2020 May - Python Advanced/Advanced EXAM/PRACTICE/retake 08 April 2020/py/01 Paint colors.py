@@ -1,4 +1,4 @@
-# Самостоятелно решение
+# My solution
 # 80/100
 
 from collections import deque
