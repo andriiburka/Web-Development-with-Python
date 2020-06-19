@@ -1,4 +1,4 @@
-'''
+''' already 100/100
 Issue 1: 57/100
 Tests 4, 9, 10, 12, 14: Incorrect answers
 Line 42: reversing the list did the job
@@ -6,6 +6,8 @@ Line 42: reversing the list did the job
 Issue 2: 92/100
 Test for incorrect answer - 13: Incorrect answer
 Line 25: Logic error. Wrote females.pop() instead of males.pop()
+
+The dumbest part of the task is: There is no condition that hinting to reverse males list
 '''
 
 from collections import deque
@@ -62,15 +64,16 @@ print(f"Females left: {', '.join(map(str, females)) if females else 'none'}")
 
 
 
-'''
-РАЗЛИКАТА С ДРУГИТЕ ОПИТИ е, че реверсирам MALES още на входа...
+''' 100/100
+The diff here is that i reverse 'Males List' at the begin
+That's why i'm using deque to popleft() first index
+That make sense..
 '''
 
 from collections import deque
 
-males = deque(reversed(list(map(int, input().split()))))
+males = deque(map(int, input().split()[::-1]))
 females = deque(map(int, input().split()))
-
 matches = 0
 
 while males or females:
