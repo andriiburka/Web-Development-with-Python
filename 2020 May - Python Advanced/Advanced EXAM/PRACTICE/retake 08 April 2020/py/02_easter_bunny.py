@@ -1,3 +1,4 @@
+from sys import maxsize
 n = int(input())
 matrix = [input().split() for _ in range(n)]
 start_position = tuple((r, c) for r in range(n) for c in range(n) if matrix[r][c] == 'B')
@@ -7,6 +8,7 @@ possible_directions = {
     'down': [[], []],
     'left': [[], []],
     'right': [[], []]}
+
 
 for row_up in range(row - 1, -1, -1):  # up
     if not matrix[row_up][col] == 'X':
@@ -32,14 +34,17 @@ for col_right in range(col + 1, n):  # right
         possible_directions['right'][1].append([row, col_right])
     else:
         break
+amount = -maxsize + 1
+print(amount)
 
 summed_possible_directions = {k: [sum((v[0])), v[1]] for k, v in possible_directions.items()}
 fancy_direction_info = sorted(summed_possible_directions.items(), key=lambda x: x[1][0], reverse=True)[0]
-direction, amount, coordinates = fancy_direction_info[0], fancy_direction_info[1][0], fancy_direction_info[1][1]
+
+direction, (amount, coordinates) = fancy_direction_info[0], fancy_direction_info[1]
 
 print(direction)
 [print(i) for i in coordinates]
 print(amount)
 
 # 87/100
-# всеки ред е с дадена дължина - не гърми заради това
+# брой колони са равни на брой редове - не гърми заради това
