@@ -1,5 +1,3 @@
-from collections import deque
-
 '''
 Issue 1: 57/100
 Tests 4, 9, 10, 12, 14: Incorrect answers
@@ -9,6 +7,8 @@ Issue 2: 92/100
 Test for incorrect answer - 13: Incorrect answer
 Line 25: Logic error. Wrote females.pop() instead of males.pop()
 '''
+
+from collections import deque
 
 males = list(map(int, input().split()))
 females = deque(map(int, input().split()))
