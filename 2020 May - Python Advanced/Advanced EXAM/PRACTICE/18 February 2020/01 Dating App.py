@@ -1,10 +1,21 @@
 from collections import deque
 
+'''
+Issue 1: 57/100
+Tests 4, 9, 10, 12, 14: Incorrect answers
+Line 42: reversing the list did the job
+
+Issue 2: 92/100
+Test for incorrect answer - 13: Incorrect answer
+Line 25: Logic error. Wrote females.pop() instead of males.pop()
+'''
+
 males = list(map(int, input().split()))
 females = deque(map(int, input().split()))
 matches = 0
 
 while males or females:
+
     # Below or equals to zero
     if males and males[-1] <= 0:
         males.pop()
@@ -22,7 +33,7 @@ while males or females:
     elif males and males[-1] % 25 == 0:
         males.pop()
         if males:
-            females.pop()
+            males.pop()
             continue
 
     # Matching...
