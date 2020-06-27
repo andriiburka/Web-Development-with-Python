@@ -1,3 +1,5 @@
+# I didn't have enough time ..This solution isn't working yet
+
 matrix = [list(map(str, "".join(input()))) for _ in range(int(input()))]
 snake_pos = [[row, col] for row in range(len(matrix)) for col in range(len(matrix[row])) if matrix[row][col] == 'S'][0]
 B_pos = [[row, col] for row in range(len(matrix)) for col in range(len(matrix[row])) if matrix[row][col] == 'B']
