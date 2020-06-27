@@ -18,5 +18,5 @@
 expression = input()
 stack = []
 [stack.append(i) if expression[i] == '(' else print(expression[stack.pop():i + 1]) if expression[i] == ')'
- else 'ако махна този else, гърми защото очаква else... така или иначе тази проверка няма да се изпълне...'
+ else ''
  for i in range(len(expression))]
