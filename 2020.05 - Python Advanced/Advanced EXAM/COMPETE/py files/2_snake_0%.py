@@ -108,10 +108,6 @@ while its_not_possible_to_hack_NASA_with_CSS:
             snake_pos[1] += 1
             matrix[snake_pos[0]][snake_pos[1]] = 'S'
 
-if not game_over or food_quantity >= 10:
-    print("You won! You fed the snake.")
-else:
-    print("Game over!")
-
+print("You won! You fed the snake." if not game_over or food_quantity >= 10 else "Game over!")
 print(f"Food eaten: {food_quantity}")
 [print("".join(i)) for i in matrix]
