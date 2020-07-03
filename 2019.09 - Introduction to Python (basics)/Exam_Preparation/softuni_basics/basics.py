@@ -66,7 +66,7 @@
 # _________________________________________________________________________________________________________
 # 6. SIMPLE OPERATIONS AND CALCULATIONS - Exercise
 
-# Exercize 01. USD to BGN (100/100)
+# Exercize 01_even_lines. USD to BGN (100/100)
 # input_usd = float(input())
 # bgn = input_usd * 1.79549
 # print(f"{bgn:.2f}")
@@ -153,7 +153,7 @@
 # __________________________________________________________________________
 # Ex. 7. Uslovni konstrukcii
 
-# Exercise 01. Excellent Result
+# Exercise 01_even_lines. Excellent Result
 # grade = float(input())
 # if grade >= 5.50:
 #     print('Excellent!')
@@ -304,7 +304,7 @@
 
 # Uslovni konstrukcii
 
-# Exercise 01. 15sec sum
+# Exercise 01_even_lines. 15sec sum
 # time_first = int(input())  # 35    22    50    14
 # time_second = int(input())  # 45    7     50    12
 # time_third = int(input())  # 44    34    49    10
