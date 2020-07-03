@@ -5,7 +5,7 @@ class Hero:
     def defend(self, damage):
         self.health -= damage
         self.health = 0 if self.health <= 0 else self.health
-        return f"{self.name} was defeated" if not self.health else None
+        return None if self.health else f"{self.name} was defeated"
 
     def heal(self, amount):
         self.health += amount
