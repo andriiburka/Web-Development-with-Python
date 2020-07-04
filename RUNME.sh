@@ -1,6 +1,7 @@
 cd
 cd PycharmProjects/education
 git add .
-git commit -m read
+read msg
+git commit -m $msg
 git push -u origin master
 cd
