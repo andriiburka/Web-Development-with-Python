@@ -1,6 +1,6 @@
 cd
 cd PycharmProjects/education
 git add .
-git commit -m "Upload testing..."
+git commit -m read
 git push -u origin master
 cd
