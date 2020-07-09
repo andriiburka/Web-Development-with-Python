@@ -1,4 +1,4 @@
-from python_oop.dir1_defining_classes.ex6_pokemon_battle.project.pokemon import Pokemon
+from module4_python_oop.dir1_defining_classes.ex6_pokemon_battle.project.pokemon import Pokemon
 
 
 class Trainer:

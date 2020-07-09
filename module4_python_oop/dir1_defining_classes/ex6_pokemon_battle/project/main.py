@@ -1,5 +1,5 @@
-from python_oop.defining_classes_1.zip.pokemon_battle.project.pokemon import Pokemon
-from python_oop.defining_classes_1.zip.pokemon_battle.project.trainer import Trainer
+from module4_python_oop.defining_classes_1.zip.pokemon_battle.project.pokemon import Pokemon
+from module4_python_oop.defining_classes_1.zip.pokemon_battle.project.trainer import Trainer
 
 
 pokemon = Pokemon("Pikachu", 90)

@@ -1,5 +1,5 @@
-from python_oop.dir1_defining_classes.ex8_spoopify.project.band import Band
-from python_oop.dir1_defining_classes.ex8_spoopify.project.song import Song
+from module4_python_oop.dir1_defining_classes.ex8_spoopify.project.band import Band
+from module4_python_oop.dir1_defining_classes.ex8_spoopify.project.song import Song
 
 
 class Album:
