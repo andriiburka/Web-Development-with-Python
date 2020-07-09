@@ -33,8 +33,6 @@ class Time:
                     self.hours = 0
 
         return self.get_time()
-
-
 # ```
 
 
