@@ -1,6 +1,5 @@
 class PhotoAlbum:
     def __init__(self, pages):
-        """self.photos is an empty matrix initially"""
         self.pages, self.photos = pages, [[] for _ in range(pages)]
 
     @classmethod
