@@ -1,8 +1,6 @@
 class User:
     def __init__(self, user_id, username):
-        self.user_id = user_id
-        self.username = username
-        self.books = []
+        self.user_id, self.username, self.books = user_id, username, list()
 
     def get_book(self, author: str, book_name: str, days_to_return: int, library):
         if book_name in library.books_available[author]:
@@ -28,4 +26,5 @@ class User:
         return f"{', '.join(sorted(self.books))}"
 
     def __str__(self):
-        return f"{self.user_id}, {self.username}, {self.books}"
+        return "{user_id}, {his_username}, {books_he_read}"\
+            .format(user_id=self.user_id, his_username=self.username, books_he_read=self.books)
