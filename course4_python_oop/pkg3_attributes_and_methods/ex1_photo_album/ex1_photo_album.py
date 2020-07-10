@@ -27,7 +27,7 @@ class PhotoAlbum:
         return result
 
 
-album = PhotoAlbum(1)
+album = PhotoAlbum(5)
 
 print(album.add_photo("baby"))
 print(album.add_photo("first grade"))
