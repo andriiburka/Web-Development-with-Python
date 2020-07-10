@@ -19,11 +19,11 @@ class PhotoAlbum:
         return "No more free spots"
 
     def display(self):
-        result = "-" * 11 + '\n'
+        result = '{:_>12}'.format('\n')
         for page in self.photos:
             if page:
                 result += ''.join('[] ' for _ in range(len(page)))[:-1]
-            result += '\n' + "-" * 11 + '\n'
+            result += '{}{:_>12}'.format('\n', '\n')
         return result
 
 
