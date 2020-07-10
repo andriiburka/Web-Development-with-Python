@@ -19,15 +19,15 @@ class PhotoAlbum:
         return "No more free spots"
 
     def display(self):
-        result = '{:_>12}'.format('\n')
+        result = '{:->11}\n'.format('')
         for page in self.photos:
             if page:
                 result += ''.join('[] ' for _ in range(len(page)))[:-1]
-            result += '{}{:_>12}'.format('\n', '\n')
+            result += '\n{:->11}\n'.format('')
         return result
 
 
-album = PhotoAlbum(5)
+album = PhotoAlbum(1)
 
 print(album.add_photo("baby"))
 print(album.add_photo("first grade"))
