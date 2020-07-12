@@ -1,5 +1,5 @@
-# from course4_python_oop.dir3_attributes_and_methods.ex2_movie_world.project.customer import Customer
-# from course4_python_oop.dir3_attributes_and_methods.ex2_movie_world.project.dvd import DVD
+# from course4_python_oop.dir3_attributes_and_methods.ex2_movie_world_100%.project_tmp.customer import Customer
+# from course4_python_oop.dir3_attributes_and_methods.ex2_movie_world_100%.project_tmp.dvd import DVD
 
 
 class MovieWorld:

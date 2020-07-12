@@ -29,7 +29,7 @@
 # architect_name = input()
 # project_count = int(input())
 # project_time = project_count * 3
-# print(f"The architect {architect_name} will need {project_time} hours to complete {project_count} project/s.")
+# print(f"The architect {architect_name} will need {project_time} hours to complete {project_count} project_tmp/s.")
 
 # Exercise 07. Circle Area and Perimeter ()
 # import math

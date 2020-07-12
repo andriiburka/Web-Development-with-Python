@@ -19,6 +19,6 @@ class PhotoAlbum:
         result = '{:->11}\n'.format('')
         for page in self.photos:
             if page:
-                result += ''.join('[] ' for _ in range(len(page)))[:-1]
+                result += ' '.join('[]' for _ in range(len(page)))
             result += '\n{:->11}\n'.format('')
         return result
