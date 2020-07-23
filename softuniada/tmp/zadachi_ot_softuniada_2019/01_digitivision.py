@@ -1,7 +1,7 @@
 from itertools import chain, permutations
 
 no_remainder = False
-str_list = []
+str_list = list()
 max_list = 3
 divider = 0
 
@@ -18,7 +18,4 @@ for i in loops:
     if number % divider == 0:
         no_remainder = True
 
-if no_remainder:
-    print('Digitivision successful!')
-else:
-    print('No digitivision possible.')
+print('Digitivision successful!' if no_remainder else 'No digitivision possible.')
