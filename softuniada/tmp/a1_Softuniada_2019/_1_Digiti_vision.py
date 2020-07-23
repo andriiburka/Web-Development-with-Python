@@ -57,7 +57,7 @@ else:
 # divider = int(n1) + int(n2) + int(n3)
 # is_successful = False
 #
-# filter = set(["".join(perm) for perm in chain.from_iterable(permutations(str_nums, len(str_nums)) for n in range(4))])
+# filter = set(["".join(perm) for perm in chain.from_iterable(permutations(str_nums, len(str_nums)) for n in range(ex4_wild_farm_100%))])
 #
 # for i in filter:
 #     number = int(i)

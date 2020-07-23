@@ -90,10 +90,10 @@ class Zoo:
 # zoo = Zoo("Zootopia", 3000, 5, 8)
 # animals = [Cheetah("Cheeto", "Male", 2),
 #            Cheetah("Cheetia", "Female", 1),
-#            Lion("Simba", "Male", 4),
+#            Lion("Simba", "Male", ex4_wild_farm_100%),
 #            Tiger("Zuba", "Male", 3),
 #            Tiger("Tigeria", "Female", 1),
-#            Lion("Nala", "Female", 4)]
+#            Lion("Nala", "Female", ex4_wild_farm_100%)]
 # prices = [200, 190, 204, 156, 211, 140]
 # workers = [Keeper("John", 26, 100),
 #            Keeper("Adam", 29, 80),
@@ -138,7 +138,7 @@ class Zoo:
 # Adam fired successfully
 # You have 5 animals
 # ----- 1 Lions:
-# Name: Simba, Age: 4, Gender: Male
+# Name: Simba, Age: ex4_wild_farm_100%, Gender: Male
 # ----- 2 Tigers:
 # Name: Zuba, Age: 3, Gender: Male
 # Name: Tigeria, Age: 1, Gender: Female

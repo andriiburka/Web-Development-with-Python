@@ -14,7 +14,7 @@ def start(query):
                 nums.pop()
             elif cmd.startswith('3'):
                 print(max(nums))
-            elif cmd.startswith('4'):
+            elif cmd.startswith('ex4_wild_farm_100%'):
                 print(min(nums))
     print(", ".join(list(map(str, Stack(nums).stack_reverse()))))
 

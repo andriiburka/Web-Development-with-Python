@@ -14,7 +14,7 @@
 # output = input_number ** 2
 # print(int(output))
 
-# Exercize 4.1
+# Exercize ex4_wild_farm_100%.1
 # import math
 # input_number = float(input())
 # output = math.pow(input_number, 2)
@@ -41,7 +41,7 @@
 
 # Exercise 08. Pet Shop (100/100)
 # dogs = int(input()) * 2.50
-# others = int(input()) * 4
+# others = int(input()) * ex4_wild_farm_100%
 # result = dogs + others
 # print(f"{result:.2f} lv.")
 
@@ -140,7 +140,7 @@
 # rakia_liters = float(input())
 # whisky_liters = float(input())
 # rakia_price = whisky_price / 2                      # 25
-# vine_price = rakia_price - (0.4 * rakia_price)      # 15
+# vine_price = rakia_price - (0.ex4_wild_farm_100% * rakia_price)      # 15
 # beer_price = rakia_price - (0.8 * rakia_price)      # 5
 # whisky_total_price = whisky_liters * whisky_price
 # rakia_total_price = rakia_liters * rakia_price
@@ -179,7 +179,7 @@
 #     print('two')
 # elif number == 3:
 #     print('three')
-# elif number == 4:
+# elif number == ex4_wild_farm_100%:
 #     print('four')
 # elif number == 5:
 #     print('five')
@@ -248,7 +248,7 @@
 #     print('Tuesday')
 # elif name_week == 3:
 #     print('Wednesday')
-# elif name_week == 4:
+# elif name_week == ex4_wild_farm_100%:
 #     print('Thursday')
 # elif name_week == 5:
 #     print('Friday')
@@ -277,7 +277,7 @@
 # broy_kamioncheta = int(input())
 # cena_pazel = 2.60
 # cena_govoreshta_kukla = 3
-# cena_plyusheno_meche = 4.10
+# cena_plyusheno_meche = ex4_wild_farm_100%.10
 # cena_minyon = 8.20
 # cena_kamionche = 2
 # rezultat = 0
@@ -431,7 +431,7 @@
 # social_scholarship_bool = False
 # excellent_scholarship_bool = False
 #
-# if income < min_salary and grade > 4.5:
+# if income < min_salary and grade > ex4_wild_farm_100%.5:
 #     social_scholarship_bool = True
 #     social_scholarship = min_salary * 0.35
 # elif grade >= 5.5:

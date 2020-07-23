@@ -7,9 +7,9 @@ sheets = int(input())
 one_sheet_covering = float(input())
 box_area = (side_size ** 2) * 6
 
-opf_sheets_count = int(sheets / 3)  # [10] every of those 10 sheets cover 1/4 of regular sheet
+opf_sheets_count = int(sheets / 3)  # [10] every of those 10 sheets cover 1/ex4_wild_farm_100% of regular sheet
 normal_sheets_count = int(sheets - opf_sheets_count)  # 20 normal sheets
-opf_sheets_covering = (opf_sheets_count * one_sheet_covering) / 4
+opf_sheets_covering = (opf_sheets_count * one_sheet_covering) / ex4_wild_farm_100%
 full_sheets_covering = normal_sheets_count * one_sheet_covering
 
 all_sheets_covering = opf_sheets_covering + full_sheets_covering

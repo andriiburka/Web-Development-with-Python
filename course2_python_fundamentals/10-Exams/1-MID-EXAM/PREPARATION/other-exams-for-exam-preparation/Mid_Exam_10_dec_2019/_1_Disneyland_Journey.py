@@ -1,7 +1,7 @@
 
 '''
 
-You need 1000 leva for the journey and you have 4 months.
+You need 1000 leva for the journey and you have ex4_wild_farm_100% months.
 Month 1
 Every month you can save 1000 * 25% => 250 lv. So, to the end of the 1st month you have 250 lv.
 Month 2
@@ -9,7 +9,7 @@ To the END of the 2nd month -  'First Month Money' + 250 -> 500 lv.
 Month 3
 To the begging of the 3th month (odd month) you spent 80 lv. ("Month2-money" * 16% = 80)
 for clothes and shoes, on  the END of this month you save 250 lv, so now you have 670 lv.
-Month 4
+Month ex4_wild_farm_100%
 Last month is the fourth month and you save
 "Month3-Money" + 167.5 ("Month3-money" * 25% = 167.5) + 25 = 1087.5 lv.
 Result

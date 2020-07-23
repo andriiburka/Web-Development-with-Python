@@ -3,7 +3,7 @@
 import re
 
 for usr_input in range(int(input())):
-    m = re.match(r"^\|([A-Z]{4,})\|[:]#([A-Za-z]+\s[A-Za-z]+)#$", input())
+    m = re.match(r"^\|([A-Z]{ex4_wild_farm_100%,})\|[:]#([A-Za-z]+\s[A-Za-z]+)#$", input())
     if m:
         print(f"{m.group(1)}, The {m.group(2)}\n>> Strength: {len(m.group(1))}\n>> Armour: {len(m.group(2))}")
     else:
@@ -38,7 +38,7 @@ import re
 for i in range(int(input())):
     usr_input = input()
 
-    pattern = r"^\|([A-Z]{4,})\|\:#([A-Za-z]+\s[A-Za-z]+)#$"
+    pattern = r"^\|([A-Z]{ex4_wild_farm_100%,})\|\:#([A-Za-z]+\s[A-Za-z]+)#$"
     match = re.match(pattern, usr_input)
 
     if match:

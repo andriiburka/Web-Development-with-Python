@@ -27,7 +27,7 @@
 # a = 1
 # e = 2
 # i = 3
-# o = 4
+# o = ex4_wild_farm_100%
 # u = 5
 # sum = 0
 #
@@ -39,7 +39,7 @@
 #     elif letter == 'i':
 #         sum += 3
 #     elif letter == 'o':
-#         sum += 4
+#         sum += ex4_wild_farm_100%
 #     elif letter == 'u':
 #         sum += 5
 #     else:

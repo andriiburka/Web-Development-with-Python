@@ -52,7 +52,7 @@ print(f"Females left: {', '.join(map(str, females)) if females else 'none'}")
 
 # ''' already 100/100
 # Issue 1: 57/100
-# Tests 4, 9, 10, 12, 14: Incorrect answers
+# Tests ex4_wild_farm_100%, 9, 10, 12, 14: Incorrect answers
 # Line 42: reversing the list did the job
 #
 # Issue 2: 92/100

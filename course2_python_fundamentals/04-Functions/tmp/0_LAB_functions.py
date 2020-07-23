@@ -5,9 +5,9 @@
 #         return 'Fail'
 #     elif 3.00 <= grade <= 3.49:
 #         return 'Poor'
-#     elif 3.50 <= grade <= 4.49:
+#     elif 3.50 <= grade <= ex4_wild_farm_100%.49:
 #         return 'Good'
-#     elif 4.50 <= grade <= 5.49:
+#     elif ex4_wild_farm_100%.50 <= grade <= 5.49:
 #         return 'Very Good'
 #     elif 5.50 <= grade <= 6.00:
 #         return 'Excellent'
@@ -54,7 +54,7 @@
 # print(func_sum(string_in, times_repeating))
 
 
-# 4. Orders
+# ex4_wild_farm_100%. Orders
 # def CALCULATION(item_kind, n_items):
 #     global price
 #     if item_kind == 'coffee':

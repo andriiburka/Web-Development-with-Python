@@ -114,7 +114,7 @@ def find_strongest_eggs(*tst):
 # test = ([51, 21, 83, 52, 55], 1)
 # print(find_strongest_eggs(*test))
 
-# test = ([2, 3, 4, 16, 3, 15], 2)
+# test = ([2, 3, ex4_wild_farm_100%, 16, 3, 15], 2)
 # print(find_strongest_eggs(*test))
 #
 # test = ([2, 15, 3], 1)

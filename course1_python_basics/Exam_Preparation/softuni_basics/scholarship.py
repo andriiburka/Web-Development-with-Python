@@ -1,7 +1,7 @@
 
 # You cannot get a scholarship!
 # 480.00
-# 4.60
+# ex4_wild_farm_100%.60
 # 450.00
 #
 # You get a Social scholarship 147 BGN

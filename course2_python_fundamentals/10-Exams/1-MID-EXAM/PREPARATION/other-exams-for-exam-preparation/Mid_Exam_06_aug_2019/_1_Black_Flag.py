@@ -39,7 +39,7 @@ Output
             - към общата печалба добави 50% от (b).
     - Ако денят е пети или един от всеки пети ден ==>       if for_loop_day % 5 == 0
         - от общата печалба премахни 30%.
-4. IF-ELSE проверка за това дали целта е постигната.
+ex4_wild_farm_100%. IF-ELSE проверка за това дали целта е постигната.
     - Ако да то изпринтирай еди си какво с 2 нули в края.
     - Ако НЕ то изчисли колко процента е разликата (виж ПОДСКАЗКА 2)
         - като получим процентите. Махаме ги от 100 и получаваме краен резултат в проценти
@@ -72,7 +72,7 @@ for current_day in range(1, days + 1):
         total_sum_of_plunders += (daily_plunder / 2)
     if current_day % 5 == 0:
         total_sum_of_plunders -= (total_sum_of_plunders * (30 / 100))
-#4
+#ex4_wild_farm_100%
 if total_sum_of_plunders >= target_sum:
     print(f'Ahoy! {total_sum_of_plunders:.2f} plunder gained.')
 else:
