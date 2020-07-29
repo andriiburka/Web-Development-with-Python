@@ -1,6 +1,6 @@
-# from course4_python_oop.dir3_attributes_and_methods_400_400.ex3_document_magagement_100%.project.category import Category
-# from course4_python_oop.dir3_attributes_and_methods_400_400.ex3_document_magagement_100%.project.document import Document
-# from course4_python_oop.dir3_attributes_and_methods_400_400.ex3_document_magagement_100%.project.topic import Topic
+# from course4_python_oop.dir3_attributes_and_methods_400_400.ex3_document_magagement_100%.p4_wild_farm.category import Category
+# from course4_python_oop.dir3_attributes_and_methods_400_400.ex3_document_magagement_100%.p4_wild_farm.document import Document
+# from course4_python_oop.dir3_attributes_and_methods_400_400.ex3_document_magagement_100%.p4_wild_farm.topic import Topic
 
 
 class Storage:
@@ -58,7 +58,7 @@ class Storage:
 
 # c1 = Category(1, "work")
 # t1 = Topic(1, "daily tasks", "C:\\work_documents")
-# d1 = Document(1, 1, 1, "finilize project")
+# d1 = Document(1, 1, 1, "finilize p4_wild_farm")
 #
 # d1.add_tag("urgent")
 # d1.add_tag("work")
@@ -78,6 +78,6 @@ class Storage:
 """ EXPECTED
 Category 1: work
 Topic 1: daily tasks in C:\work_documents
-Document 1: finilize project; category 1, topic 1, tags: urgent, work
-Document 1: finilize project; category 1, topic 1, tags: urgent, work
+Document 1: finilize p4_wild_farm; category 1, topic 1, tags: urgent, work
+Document 1: finilize p4_wild_farm; category 1, topic 1, tags: urgent, work
 """

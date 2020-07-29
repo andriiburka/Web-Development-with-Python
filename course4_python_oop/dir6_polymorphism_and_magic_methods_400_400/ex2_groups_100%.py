@@ -29,6 +29,7 @@ class Group:
     def __repr__(self):
         return f'Group {self.name} with members {", ".join([h.__repr__() for h in self.people])}'
 
+
 # p0 = Person('Aliko', 'Dangote')
 # p1 = Person('Bill', 'Gates')
 # p2 = Person('Warren', 'Buffet')

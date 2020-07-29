@@ -1,5 +1,5 @@
-# from course4_python_oop.dir3_attributes_and_methods_400_400.ex3_document_magagement_100%.project.category import Category
-# from course4_python_oop.dir3_attributes_and_methods_400_400.ex3_document_magagement_100%.project.topic import Topic
+# from course4_python_oop.dir3_attributes_and_methods_400_400.ex3_document_magagement_100%.p4_wild_farm.category import Category
+# from course4_python_oop.dir3_attributes_and_methods_400_400.ex3_document_magagement_100%.p4_wild_farm.topic import Topic
 
 
 class Document:

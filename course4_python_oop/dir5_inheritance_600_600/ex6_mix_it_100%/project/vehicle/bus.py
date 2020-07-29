@@ -3,7 +3,7 @@ from project.vehicle.vehicle import Vehicle
 
 class Bus(Vehicle):
     def __init__(self, available_seats, ticket_price):
-        Vehicle.__init__(self, available_seats)
+        super().__init__(available_seats)
         self.ticket_price = ticket_price
         self.tickets_sold = 0
 

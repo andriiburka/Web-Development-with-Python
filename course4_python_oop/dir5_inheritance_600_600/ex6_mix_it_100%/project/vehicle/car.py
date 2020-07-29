@@ -3,7 +3,7 @@ from project.vehicle.vehicle import Vehicle
 
 class Car(Vehicle):
     def __init__(self, available_seats, fuel_tank, fuel_consumption, fuel):
-        Vehicle.__init__(self, available_seats)
+        super().__init__(available_seats)
         self.fuel_tank = fuel_tank
         self.fuel_consumption = fuel_consumption
         self.__fuel = fuel
@@ -14,10 +14,8 @@ class Car(Vehicle):
 
     @fuel.setter
     def fuel(self, value):
-        if value + self.__fuel <= self.fuel_tank:
-            self.__fuel = value
-        else:
-            self.__fuel = self.fuel_tank
+        # TODO: Не добавяме fuel а го сетваме - за това проверката долу е с = а не +=
+        self.__fuel = value if value + self.__fuel <= self.fuel_tank else self.fuel_tank
 
     def drive(self, distance):
         fuel_needed = self.fuel_consumption * distance
@@ -29,5 +27,3 @@ class Car(Vehicle):
         if self.get_capacity(self.fuel_tank, self.__fuel + liters) != 'Capacity reached!':
             self.__fuel += liters
         return self.__fuel
-
-

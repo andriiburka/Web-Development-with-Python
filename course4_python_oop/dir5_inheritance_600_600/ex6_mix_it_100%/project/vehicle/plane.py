@@ -1,4 +1,4 @@
-from project.vehicle.vehicle import Vehicle
+ from project.vehicle.vehicle import Vehicle
 
 class Plane(Vehicle):
     def __init__(self, available_seats, rows, seats_per_row):

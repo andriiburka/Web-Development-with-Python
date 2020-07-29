@@ -1,8 +1,8 @@
-# from course4_python_oop.dir3_attributes_and_methods_400_400.ex4_gym_100%.project.customer import Customer
-# from course4_python_oop.dir3_attributes_and_methods_400_400.ex4_gym_100%.project.trainer import Trainer
-# from course4_python_oop.dir3_attributes_and_methods_400_400.ex4_gym_100%.project.exercise_plan import ExercisePlan
-# from course4_python_oop.dir3_attributes_and_methods_400_400.ex4_gym_100%.project.subscription import Subscription
-# from course4_python_oop.dir3_attributes_and_methods_400_400.ex4_gym_100%.project.equipment import Equipment
+# from course4_python_oop.dir3_attributes_and_methods_400_400.ex4_gym_100%.p4_wild_farm.customer import Customer
+# from course4_python_oop.dir3_attributes_and_methods_400_400.ex4_gym_100%.p4_wild_farm.trainer import Trainer
+# from course4_python_oop.dir3_attributes_and_methods_400_400.ex4_gym_100%.p4_wild_farm.exercise_plan import ExercisePlan
+# from course4_python_oop.dir3_attributes_and_methods_400_400.ex4_gym_100%.p4_wild_farm.subscription import Subscription
+# from course4_python_oop.dir3_attributes_and_methods_400_400.ex4_gym_100%.p4_wild_farm.equipment import Equipment
 
 
 class Gym:
